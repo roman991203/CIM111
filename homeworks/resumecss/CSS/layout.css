@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+/* body styling */
+  body{
+    background-color: black;
+  }
+
+  h2{
+    color: red;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+  }
+
+  p{
+    color: yellow;
+  }
+
+  /* "a" tag styling */
+  a{
+    color: green;
+    text-decoration: none;
+  }
+
+  a:visited{
+    color: red;
+  }
+
+  a:hover{
+    background-color: aqua;
+    font-style: italic;
+  }
+
+  a:active{
+    background-color: white;
+    font-style: oblique;
+  }
+
+  /* section styling */
+  section{
+    background-color: red;
+  }
+
+  /* "ids" */
+  #beingCenter{
+    text-align: center;
+  }
+
+  #textColorChange{
+    color: aqua;
+  }
+
+  #tableColorChange{
+    color: orange;
+  }
+
+  #addressChange{
+    color: silver;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  #listChange{
+    color: purple;
+    font-family: 'Anton', sans-serif;
+  }
+
+  /* Class */
+  .bolder{
+    font-weight: bolder;
+    font-size: 30px;
+  }
+
+  .big{
+    font-size: 30px;
+  }
