@@ -67,6 +67,7 @@
   /* Class */
   .bolder{
     font-weight: bolder;
+    font-variant: normal;
     font-size: 30px;
   }
 
