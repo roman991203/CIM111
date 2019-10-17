@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap');
+header{
+  background-color: aqua;
+  width: 920px;
+  height: auto;
+  padding: 20px 20px 20px 20px;
+
+  border-width: 5px 5px 5px 5px;
+  border-color: Fuchsia;
+  border-style: dotted;
+
+  margin: 0 auto;
+  margin-top: -10px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+main{
+  background-color: chocolate;
+  width: 920px;
+  height: auto;
+
+
+  padding: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+
+  border-width: 5px;
+  border-style: dashed;
+  border-color: gold;
+
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+footer{
+  background-color: tomato;
+  width: 920px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: -10px;
+  padding: 20px 20px 20px 20px;
+
+  border-width: 5px;
+  border-style: inset;
+  border-color: pink;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+nav{
+  background-color: deeppink;
+  width: 650px;
+  margin: 0 auto;
+  border-width: 5px;
+  border-style: dashed;
+  border-color: silver;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 5px;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:active{
+  background-color: springgreen;
+  font-style: oblique;
+}
+
+nav ul li:hover{
+  background-color: coral;
+}
+
+#grid1{
+  width: 900px;
+  height: auto;
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: 150px;
+  grid-template-columns: 240px 640px;
+  grid-column-gap: 20px;
+}
+
+#grid1 h1{
+  margin: 45px auto;
+}
+
+#grid2{
+  width: 900px;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 440px 440px;
+  grid-column-gap: 20px;
+
+}
+
+#grid2 img{
+  width: 400px;
+  margin: 0px auto;
+  display: block;
+}
+
+#grid2 p{
+  margin: 15px auto;
+}
+
+#grid3{
+  width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 20px;
+}
+
+#grid3 img{
+  width: 400px;
+  margin: 0 auto;
+  display: block;
+}
+
+#grid4{
+  width: 900px;
+  height:auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 20px;
+}
+
+#grid4 img{
+  width: 400px;
+  margin: 0 auto;
+}

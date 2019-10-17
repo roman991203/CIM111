@@ -1,0 +1,48 @@
+@import "desktop.css";
+header{
+  width: 380px;
+}
+
+main{
+  width: 380px;
+}
+
+footer{
+  width: 380px;
+}
+
+nav{
+  width: 380px;
+  margin-left:-6px;
+}
+nav ul li{
+  display: block;
+  text-align: center;
+}
+
+
+#grid1, #grid2, #grid3, #grid4{
+  width: 380px;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-column-gap: 10px;
+}
+
+#grid2 img{
+  width: 250px;
+  margin: 0 auto;
+}
+
+#grid3 img{
+  width: 250px;
+  margin: 0 auto;
+}
+
+#grid4 img{
+  padding-top: 10px;
+  width: 250px;
+  margin: 0 auto;
+}
