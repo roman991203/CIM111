@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Vacation in Cuba!!!!!!</title>
+    <link rel="stylesheet" href="CSS/desktop.css">
+
+    <style media="screen">
+
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="changeHeader">Cuba</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#grid3">Havana</a>
+          </li>
+          <li>
+            <a href="#grid4">Varadero</a>
+          </li>
+          <li>
+            <a href="#grid6">Viñales</a>
+          </li>
+          <li>
+            <a href="#grid8">Foods</a>
+          </li>
+          <li>
+            <a href="#grid8">Drinks</a>
+          </li>
+        </ul>
+      </nav>
+
+
+    </header>
+
+    <main>
+      <!-- Intro -->
+      <section id="grid1">
+        <h1 class="fancy_title" id="clickToShow">Introduction</h1>
+        <p id="hide">Cuba, officially the Republic of Cuba, is a country comprising the island of Cuba as well as Isla de la Juventud and several minor archipelagos. Cuba is located in the northern Caribbean where the Caribbean Sea, Gulf of Mexico and Atlantic Ocean meet. It is east of the Yucatán Peninsula (Mexico), south of both the U.S. state of Florida and the Bahamas, west of Haiti and north of both Jamaica and the Cayman Islands. Havana is the largest city and capital; other major cities include Santiago de Cuba and Camagüey.</p>
+      </section>
+      <!-- Havana -->
+      <section id="grid3">
+        <h1 class="fancy_title" id="clickToShow2">Havana</h1>
+        <p>Havana is the capital city, largest city, province, major port, and leading commercial center of Cuba. The city has a population of 2.1 million inhabitants, and it spans a total of 781.58 km (301.77 sq mi) – making it the largest city by area, the most populous city, and the fourth largest metropolitan area in the Caribbean region. The city of Havana was founded by the Spanish in the 16th century and due to its strategic location it served as a springboard for the Spanish conquest of the Americas, becoming a stopping point for treasure-laden Spanish galleons returning to Spain.</p>
+      </section>
+
+      <section id = "grid2">
+        <img src="img/1.jpg" alt="cuba1">
+        <img src="img/2.jpg" alt="cuba2">
+      </section>
+
+      <!-- Varadero -->
+      <section id="grid4">
+        <h1 class="fancy_title" id="clickToShow3">Varadero</h1>
+        <p>Varadero, also referred to as Playa Azul (Blue Beach), is a resort town in the province of Matanzas, Cuba, and one of the largest resort areas in the Caribbean. Matanzas is named after the massacre (matanza) of Spaniards by Indians in 1510. In 2019 Varadero Beach was rated one of the world's best beaches in Trip Advisor's Traveler's Choice Awards, ranking at number two. Common activities include fishing and excursions to Matanzas, Cárdenas, and the Península de Zapata.</p>
+      </section>
+
+      <section id = "grid5">
+        <img src="img/3.jpg" alt="cuba3">
+        <img src="img/4.jpg" alt="cuba4">
+      </section>
+
+      <!-- Viñales -->
+      <section id="grid6">
+        <h1 class="fancy_title" id="clickToShow4">Viñales</h1>
+        <p>Viñales is a small town and municipality in the north-central Pinar del Río Province of Cuba. The town consists mostly of one-story wooden houses with porches. The municipality is dominated by low mountain ranges of the Cordillera de Guaniguanico such as Sierra de los Órganos. Typical outcrops known as mogotes complete the karstic character of the landscape.</p>
+      </section>
+
+      <section id="grid7">
+        <img src="img/5.jpg" alt="cuba5">
+        <img src="img/6.jpg" alt="cuba6">
+      </section>
+
+    </main>
+
+    <footer>
+      <!--  Foods and Drinks -->
+      <section id="grid8">
+        <h1 class="fancy_title" id="clickToShow5">Foods and Drinks</h1>
+        <p>Many travelers are pleasantly surprised at the quality and variety of food that can be found in Cuba. Beans and rice are the staples, with cucumber, tomato and cabbage, conventional ingredients for a Cuban salad. Chicken and pork are the most common meats served in Cuba, however fish and a surprising variety of delicious seafood is also very frequently on offer.</p>
+      </section>
+
+      <section id="grid9">
+        <img src="img/7.jpg" alt="cuba7">
+        <img src="img/8.jpg" alt="cuba8">
+      </section>
+
+
+
+    </footer>
+
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script type="text/javascript" src="js/jquery.lettering-0.6.1.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#grid2").hide();
+        $("#grid5").hide();
+        $("#grid7").hide();
+        $("#grid9").hide();
+        $("h1").css("color", "orange");
+        $("#changeHeader").html("Cuba Vacation");
+        $(".fancy_title").lettering();
+      });
+
+      // introduction part
+      $("#clickToShow").click(function(){
+        $("#hide").slideToggle();
+      });
+      // Havana part
+      $("#clickToShow2").click(function(){
+        $("#grid2").slideToggle();
+      });
+      // Varadero part
+      $("#clickToShow3").click(function(){
+        $("#grid5").slideToggle();
+      });
+      // Viñales part
+      $("#clickToShow4").click(function(){
+        $("#grid7").slideToggle();
+      });
+      // Foods and Drinks part
+      $("#clickToShow5").click(function(){
+        $("#grid9").slideToggle();
+      });
+    </script>
+  </body>
+</html>
