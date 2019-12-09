@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>This is all about Vtuber!!!!!</title>
+    <link rel="stylesheet" href="CSS/tiltedpage-scroll.css">
+    <link rel="stylesheet" href="css/izmir.min.css">
+    <link rel="stylesheet" href="CSS/desktop.css" media="only screen and (min-width: 600px)">
+    <link rel="stylesheet" href="CSS/mobile.css" media="only screen and (max-width: 600px)">
+
+    <style media="screen">
+
+
+
+    </style>
+  </head>
+
+
+  <body>
+    <header>
+      <section id="grid1">
+        <figure class="c4-izmir">
+          <img src="img/1.jpg" alt="fubuki">
+          <figcaption>
+            <a href="#fubuki"><h3>Fubuki</h3></a>
+          </div>
+        </figure>
+        <figure class="c4-izmir">
+          <img src="img/2.jpg" alt="matsuri">
+          <figcaption>
+            <a href="#matsuri"><h3>Matsuri</h3></a>
+          </div>
+        </figure>
+        <figure class="c4-izmir">
+          <img src="img/3.jpg" alt="Haato">
+          <figcaption>
+            <a href="#haato"><h3>Haato</h3></a>
+          </div>
+        </figure>
+      </section>
+
+      <section id="grid2">
+        <figure class="c4-izmir">
+          <img src="img/4.jpg" alt="Aqua">
+          <figcaption>
+            <a href="#aqua"><h3>Aqua</h3></a>
+          </div>
+        </figure>
+        <a id="show" href="https://en.wikipedia.org/wiki/Virtual_YouTuber"><h1>Vtuber</h1></a>
+        <figure class="c4-izmir">
+          <img src="img/5.jpg" alt="Ayame">
+          <figcaption>
+            <a href="#ayame"><h3>Ayame</h3></a>
+          </div>
+        </figure>
+      </section>
+
+      <section id="grid3">
+        <figure class="c4-izmir">
+          <img src="img/6.jpg" alt="Korone">
+          <figcaption>
+            <a href="#korone"><h3>Korone</h3></a>
+          </div>
+        </figure>
+        <figure class="c4-izmir">
+          <img src="img/7.jpg" alt="Okayu">
+          <figcaption>
+            <a href="#okayu"><h3>Okayu</h3></a>
+          </div>
+        </figure>
+        <figure class="c4-izmir">
+          <img src="img/8.jpg" alt="Mio">
+          <figcaption>
+            <a href="#mio"><h3>Mio</h3></a>
+          </div>
+        </figure>
+      </section>
+    </header>
+
+    <main>
+      <div class="main">
+  <section class="page1" id="fubuki">
+    <img src="img/page1.jpg" alt="p1">
+  </section>
+  <section class="page2" id="matsuri">
+    <img src="img/page2.jpg" alt="p2">
+  </section>
+  <section class="page3" id="haato">
+    <img src="img/page3.jpg" alt="p3">
+  </section>
+  <section class="page4" id="aqua">
+    <img src="img/page4.jpg" alt="p4">
+  </section>
+  <section class="page5" id="ayame">
+    <img src="img/page5.jpg" alt="p5">
+  </section>
+  <section class="page6" id="korone">
+    <img src="img/page6.jpg" alt="p6">
+  </section>
+  <section class="page7" id="okayu">
+    <img src="img/page7.jpg" alt="p7">
+  </section>
+  <section class="last-page" id="mio">
+    <img src="img/page8.jpg" alt="p8">
+  </section>
+      </div>
+  </main>
+
+  <footer>
+    <nav>
+      <ul>
+        <li>
+        <p>Fubuki</p>
+        </li>
+        <li>
+          <p>Matsuri</p>
+        </li>
+        <li>
+          <p>Haato</p>
+        </li>
+        <li>
+          <p>Aqua</p>
+        </li>
+        <li>
+          <p>Ayame</p>
+        </li>
+        <li>
+          <p>Korone</p>
+        </li>
+        <li>
+          <p>Okayu</p>
+        </li>
+        <li>
+          <p>Mio</p>
+        </li>
+      </ul>
+    </nav>
+    <address>
+      Contact Information: E-mail: wecta123@gate.com Phonenumber: 3122118760 Twitter: @wqroapmn
+    </address>
+  </footer>
+
+
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.tiltedpage-scroll.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("#grid1").hide();
+    $("#grid3").hide();
+
+
+    $("#show").mouseenter(function(){
+      $("#grid1").show();
+      $("#grid3").show();
+    });
+
+
+
+
+    $(".main").tiltedpage_scroll({
+    sectionContainer: "> section",     // In case you don't want to use <section> tag, you can define your won CSS selector here
+    angle: 50,                         // You can define the angle of the tilted section here. Change this to false if you want to disable the tilted effect. The default value is 50 degrees.
+    opacity: true,                     // You can toggle the opacity effect with this option. The default value is true
+    scale: true,                       // You can toggle the scaling effect here as well. The default value is true.
+    outAnimation: true              // In case you do not want the out animation, you can toggle this to false. The defaul value is true.
+  });
+
+
+
+  });
+
+</script>
+
+
+  </body>
+</html>

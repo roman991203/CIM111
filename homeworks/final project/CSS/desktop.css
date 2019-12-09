@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+header{
+  background-image: url(background/header.jpeg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: middle;
+  width: 920px;
+  height: auto;
+  padding: 20px 20px 20px 20px;
+
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Calistoga', cursive;
+}
+
+footer{
+  background-color: aqua;
+  width: 910px;
+  height: 100px;
+  padding: 20px 20px 20px 20px;
+
+  border-width: 5px 5px 5px 5px;
+  border-color: Fuchsia;
+  border-style: solid;
+
+  margin: 0 auto;
+  margin-top: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+nav{
+  width: 695px;
+  margin: 0 auto;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 5px;
+}
+
+.main{
+  width: 960px;
+  height: auto;
+
+  margin: 0 auto;
+}
+
+.main img{
+  width: 960px;
+}
+
+#grid1{
+  width: 730px;
+  height: 230px;
+  margin: 0 auto;
+  margin-left: 65px;
+  display: grid;
+  grid-template-rows: 220px;
+  grid-template-columns: 220px 220px 220px;
+  grid-column-gap: 70px;
+}
+
+#grid2{
+width: 730px;
+height: 230px;
+margin: 0 auto;
+margin-left: 65px;
+display: grid;
+grid-template-rows: 220px;
+grid-template-columns: 220px 220px 220px;
+grid-column-gap: 70px;
+}
+
+#grid2 h1{
+margin: 0 auto;
+padding: 80px 20px 20px 30px;
+font-size: 50px;
+}
+
+#grid3{
+width: 730px;
+height: 220px;
+margin: 0 auto;
+margin-left: 65px;
+display: grid;
+grid-template-rows: 220px;
+grid-template-columns: 220px 220px 220px;
+grid-column-gap: 70px;
+}
+
+header a{
+text-decoration: none;
+color: yellow;
+}
+
+header a:visited{
+  color: gold;
+}
+
+address{
+  text-align: center;
+}
